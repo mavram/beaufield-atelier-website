@@ -1,0 +1,249 @@
+/* global styles */
+body {
+	color: #333;
+	width:100%;
+	clear:both;
+	background-color: white;
+	/*
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Gill Sans', 'Gill Sans Std', 'Verdana', sans-serif;
+	font-family: 'Gill Sans', 'Gill Sans Std', 'Verdana', sans-serif;
+	font-family: 'Constantia', 'Georgia', serif;
+	*/
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Gill Sans', 'Gill Sans Std', 'Verdana', sans-serif;
+	font-size: .9em;
+/* __debug_begin__
+	border: red thin solid;
+/* __debug_end__ */
+	}
+
+body#wfp li#wfp, body#pbr li#pbr, body#apps li#apps, body#news li#news, body#about li#about, body#contact li#contact {
+	border-bottom: .3em solid #777; 
+	}
+
+
+ul, li, a {	
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	}
+
+a {color: #aaa;}	
+a:link {color: #aaa;}
+a:visited {color: #aaa;}
+a:hover {color: #333;}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom:0em;
+	}
+h3 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-bottom: 0em;
+	color: black;
+	}
+h4 {
+	font-size: .85em;
+	font-weight: bold;
+	margin-bottom: 0em;
+	}
+	
+h4#subtitle {
+	color:gray;
+}
+
+/* classes & instances */
+
+#site_menu {
+	background: #ffffff;
+	height: 1.7em;
+	padding-top: 0.3em;
+	margin-bottom: 0em;
+	border-bottom: thin solid #ddd; 
+/* __debug_begin__
+	border: red thin solid;
+/* __debug_end__ */
+	}
+
+#site_menu ul {
+	float:right;
+	padding-right:1em;
+/* __debug_begin__
+	border: blue thin solid;
+/* __debug_end__ */
+	}
+
+#site_menu li {
+	color: #aaa;
+	padding: 0.4em 0.5em 0.4em 0.5em;
+	}
+	
+#site_footer {
+	clear:both;
+	margin-bottom:3em;
+/* __debug_begin__
+	border: red thin solid;
+/* __debug_end__ */
+	}
+
+#site_footer p {
+	text-align: center;
+	color: #aaa;
+	font-size: .8em;
+	}
+
+#site_footer span {
+	border-top: thin solid #ddd;
+	padding: .5em 1em 1em 1em;
+	}
+
+#page_header {
+	margin-top: 1em;
+	}
+
+#page_content {
+	padding: 3em;
+/* __debug_begin__
+	border: gray thin solid;
+/* __debug_end__ */
+	}
+
+/*
+ Error Pages and text pages
+*/	
+#message_description {
+	margin-top: 3em;
+	margin-bottom: 3em;
+/* __debug_begin__
+	border: red thin solid;
+/* __debug_end__ */	
+	}
+	
+#error_description {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	color:red;
+/* __debug_begin__
+	border: red thin solid;
+/* __debug_end__ */	
+	}
+
+/*
+ Overview
+*/
+
+#product_logo {
+	margin-bottom: 1em;
+	width:730px;
+/* __debug_begin__
+	border: green thin solid;
+/* __debug_end__ */	
+	}
+		
+#product_description {
+	margin-bottom: 3.5em;
+/* __debug_begin__
+	border: red thin solid;
+/* __debug_end__ */	
+	}
+
+	
+/*
+ Features
+*/
+		
+#product_features {
+	border-top: thin solid #ddd;
+	padding-top:2em;
+/* __debug_begin__
+	border: blue thin solid;
+/* __debug_end__ */
+	}
+		
+#product_features p {
+	font-size: .85em;
+	}
+	
+#product_feature_column {
+	width: 47%;
+	padding-top:2em;
+/* __debug_begin__
+	border: blue thin solid;
+/* __debug_end__ */
+	}
+
+#feature_left_image {
+	float:left;
+	padding-right:1em;
+/* __debug_begin__ 
+	border: green thin solid;
+/* __debug_end__ */
+	}
+
+#feature_right_image {
+	float:right;
+	padding-left:1em;
+/* __debug_begin__
+	border: green thin solid;
+/* __debug_end__ */
+	}
+	
+#product_version {
+	padding-left:3em;
+	padding-right:3em;
+/* __debug_begin__
+	border: blue thin solid;
+/* __debug_end__ */
+	}	
+		
+
+.full_screen_section {
+	clear: both;
+	margin: 0em auto 0em auto;
+	}
+
+.presentation_section {
+	clear: both;
+	width: 70%;
+	min-width: 800px;
+	margin: 0em auto 0em auto;
+/* __debug_begin__
+	border: yellow thin solid;
+/* __debug_end__ */
+	}
+
+.text_section {
+	clear: both;
+	width: 60%;
+	min-width: 730px;
+	margin: 0em auto 0em auto;
+/* __debug_begin__
+	border: yellow thin solid;
+/* __debug_end__ */
+	}
+
+.small_section {
+	clear: both;
+	width: 50%;
+	min-width: 640px;
+	margin: 0em auto 0em auto;
+	}
+
+#latest_version_value {
+	font-size: 0.85em;
+	color: grey;
+	}
+	
+#new_feature_tag {
+	color: white;
+	background-color: orange;
+	font-weight: bold;
+	font-size: .85em;
+	padding-left:.5em;
+	padding-top:.2em;
+	padding-right:.5em;
+	padding-bottom:.2em;
+	}
+}
+
