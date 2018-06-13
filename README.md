@@ -1,3 +1,3 @@
-# (defunct) http://www.beaufieldatelier.com#
+# (defunct) http://www.beaufieldatelier.com
 
 Migrated from Mercurial.
