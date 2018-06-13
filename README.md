@@ -1,6 +1,6 @@
 # (defunct) http://www.beaufieldatelier.com
 
-Migrated from Mercurial.
+Migrated from SVN (via Mercurial/Bitbucket).
 
 Stack:
  * HTML/CSS
